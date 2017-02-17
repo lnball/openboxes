@@ -27,11 +27,11 @@ for that location (customer) against your facility depot, and fulfill that PO in
 This feature will eventually be implemented as pharmacists would like to generate a sales order when filling a 
 prescription for a patient.
       
-2) The Requisition feature (similar to Tranfer Orders) which is used to move stock from a facility depot to a 
-point-of-service (e.g. ward, pharmacy) is primarily used within the depot. In other words, Requisitions are 
+2) The Requisition feature (similar to Transfer Orders) which is used to move stock from a facility depot to a 
+point-of-service (e.g. ward, pharmacy) is primarily used within the depot. In other words, requisitions are 
 created by a warehouse manager within the hospital depot (instead of the requesting party, a nurse or pharmacist).
 This was a decision made in order to save time and avoid the need for adding time-intensive processes for nurses 
-and pharmacists. In the use case at Mirebalis Hospital, nurses and pharmacists will send a paper requisitions to the hospital depot, 
+and pharmacists. In the use case at Mirebalais Hospital (Haiti), nurses and pharmacists will send paper requisitions to the hospital depot, 
 warehouse staff will enter the requisition into the system and proceed to fulfill that requisition. OpenBoxes will 
 eventually have a point-of-service (POS) client for nurses and pharmacists to request stock from the depot, but that 
 feature is not currently in development.
@@ -39,6 +39,6 @@ feature is not currently in development.
 ## Static Role-based Authorization
 The OpenBoxes authorization mechanism currently only provides three roles (Admin, Manager, and Browser). This limits the 
 ability for an administrator to create roles based on fine-grained permissions. For example, all Manager users have 
-the ability to perform CRUD actions (create, retrieve, update, delete) on most objects within the system. However, I cannot 
+the ability to perform CRUD actions (create, retrieve, update, delete) on most objects within the system. However, it is not possible to  
 create a new role (e.g. Shift Manager) that allows a user to create a Product, but not a Purchase Order. A more 
 fine-grained approach will be implemented in a future version of OpenBoxes.
