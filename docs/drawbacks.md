@@ -21,7 +21,7 @@ allow users to successfully utilize all of the functionality offered by the syst
 While OpenBoxes could be used by small-to-medium-sized enterprises (SME) in most industries, there are some 
 limitations that might make it difficult to use:
 
-1) OpenBoxes does not have a Sales Order feature yet. There's not an overwhleming need for such a feature within
+1) OpenBoxes does not have a Sales Order feature yet. There's not an overwhelming need for such a feature within
 the hospital. For now, you can create a new location to represent a customer, generate a PO
 for that location (customer) against your facility depot, and fulfill that PO in order to approximate a Sales Order.
 This feature will eventually be implemented as pharmacists would like to generate a sales order when filling a 
